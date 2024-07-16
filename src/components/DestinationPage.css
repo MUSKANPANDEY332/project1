@@ -1,0 +1,124 @@
+/* DestinationPage.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+  }
+  
+  .destination-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .menu-item {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .content {
+    text-align: center;
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+  }
+  
+  .content h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    padding: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-container input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 25px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+  }
+  
+  .search-container input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .search-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .search-button img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .decorative-blocks {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .b1, .b2 {
+    position: absolute;
+  }
+  
+  .b1 {
+    top: -20px;
+    left: -20px;
+  }
+  
+  .b1 img {
+    width: 60px;
+  }
+  
+  .b2 {
+    bottom: -20px;
+    right: -20px;
+  }
+  
+  .b2 img {
+    width: 60px;
+  }
+  
